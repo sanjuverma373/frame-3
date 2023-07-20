@@ -108,6 +108,7 @@
 
 .font:hover {
   color: red;
+  line-height: 25px;
 }
 
 .connect:hover {
