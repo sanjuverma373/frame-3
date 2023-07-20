@@ -1,0 +1,133 @@
+:root{
+    /* font size */
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-24: 24px;
+    --fs-32: 32px;
+    /* color */
+    --yellow:  #F6E300;
+    --light-green: #FFF03F;
+    --red: #F4241E;
+    --gray:#4D4813;
+    /* font familey */
+    --ff-400p: 'poppins';
+    --ff-500p: 'poppins';
+    --ff-600p: 'poppins';
+    --ff-700p: 'poppins';
+    --ff-500r: 'robot';
+    /* font weigh */
+    --fw-400p: 400;
+    --fw-500p: 500;
+    --fw-600p: 600;
+    --fw-700p: 700;
+    --fw-500r: 500;
+    
+}
+.text-gray{
+    color: var(--gray);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
+.bg-clr{
+    background-color: var(--yellow);
+}
+.bg-green{
+    background-color: var(--light-green);
+}
+.bg-red{
+    background-color: var(--red);
+}
+
+.font{
+    font-size: var(--fs-18);
+    
+    font-weight: var(--fw-400p);
+}
+.welcome{
+    font-size: var(--fs-36);
+    
+    font-weight: var(--fw-700p);
+}
+.heading{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700p);
+}
+.paragraph{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400p);
+}
+.button{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500p);
+}
+.supplies{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700p);
+}
+.no-1{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700p);
+}
+.paraline{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400p);
+}
+.q-4{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-700p);
+}
+.son{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-700p);
+}
+.para{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-400p);
+}
+
+.roadmap{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700p);
+}
+.team{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700p);
+}
+
+.jhone{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-700p);
+}
+.manager{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400p);
+}
+.copyright{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400p);
+}
+.emin{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400p);
+}
+.amet{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-600p);
+}
+.faq{
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700p);
+}
+@media (max-width: 568px) {
+    .roadmap{
+        font-size: var(--fs-36);
+        font-weight: var(--fw-700p);
+    }
+    .heading{
+        font-size: var(--fs-32);
+        font-weight: var(--fw-700p);
+    }
+}
