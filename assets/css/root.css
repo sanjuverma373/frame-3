@@ -40,6 +40,15 @@
 .bg-red{
     background-color: var(--red);
 }
+.enim{
+    font-size: var(--fs-18);    
+    font-weight: var(--fw-400p);
+}
+.amet{
+    font-size: var(--fs-18);
+    
+    font-weight: var(--fw-600p);
+}
 
 .font{
     font-size: var(--fs-18);

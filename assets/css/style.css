@@ -352,8 +352,6 @@
   top: 72%;
   right: 4%;
 }
-
-
 .hum-burger6{
   position: absolute;
   top: 11%;
@@ -443,12 +441,6 @@
 .imgopen {
   transform: translateY(-28%);
 }
-
-
-
-
-
-
 
 
 @media (max-width:768px) {
