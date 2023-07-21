@@ -206,6 +206,7 @@
 .bg-green {
   background: #FFF03F !important;
 }
+
 .mr-10 {
   margin-right: 10px;
 }
@@ -306,12 +307,12 @@
   right: 31%;
 }
 
-
-
 .accordion-item {
   background-color: #FFF03F;
   border: 2px solid #FFF03F;
   margin-bottom: 20px;
+  border: unset !important;
+}
 }
 
 .accordion {
