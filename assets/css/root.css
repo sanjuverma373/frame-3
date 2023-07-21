@@ -11,12 +11,9 @@
     --light-green: #FFF03F;
     --red: #F4241E;
     --gray:#4D4813;
-    /* font familey */
-    --ff-400p: 'poppins';
-    --ff-500p: 'poppins';
-    --ff-600p: 'poppins';
-    --ff-700p: 'poppins';
-    --ff-500r: 'robot';
+
+    
+    
     /* font weigh */
     --fw-400p: 400;
     --fw-500p: 500;
@@ -24,6 +21,12 @@
     --fw-700p: 700;
     --fw-500r: 500;
     
+}
+.bs-accordion-active-color{
+    color: black;
+}
+.bs-accordion-border-color{
+    color: var(--bs-accordion-border-color);
 }
 .text-gray{
     color: var(--gray);
